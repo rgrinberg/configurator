@@ -2,7 +2,6 @@
  ((name        configurator)
   (public_name configurator)
   (flags (:standard -safe-string))
-  (libraries (base stdio unix))
-  (preprocess (pps (ppx_base ppx_driver.runner)))))
+  (libraries (base stdio unix))))
 
 (jbuild_version 1)
